@@ -50,6 +50,10 @@ text-align: center;
     border-radius: 10px;
     margin-top: 7%;
 }
+#join:hover {
+    color: white;
+    background: #680101;
+}
 
 #beat_selection {
     text-align: center;
