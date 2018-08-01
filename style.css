@@ -43,3 +43,7 @@ color: white;
 #join {
     border-radius: 10px;
 }
+#beat_selection {
+    text-align: center;
+    margin-top: 5%;
+}
