@@ -28,11 +28,16 @@ video {
     
 }
 body{
-background-color:#E6E6FA;
+background-color:#1A0101;
 }          
-.container-fluid{
-background-image: linear-gradient( #AF1919, #182848);
+.container-fluid {
+background-image: linear-gradient( #680101, #1A0101);
 color: white;
+text-align: center;
+}
+#rap_live {
+    font-size: 45px;
+    top: 25%;
 }
 .pane {
     text-align: center;
@@ -40,15 +45,25 @@ color: white;
 .button {
     color: black;
 }
+
 #join {
     border-radius: 10px;
+    margin-top: 7%;
 }
+
 #beat_selection {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    color: white;
 }
 
 .beats {
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .container-fluid {
+        text-align: center;
+    }
 }
