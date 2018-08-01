@@ -46,4 +46,9 @@ color: white;
 #beat_selection {
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.beats {
+    text-align: center;
 }
