@@ -1,0 +1,45 @@
+#video_container{
+   
+    margin: 20px;
+    text-align: center;
+    width:300px;
+    height:300px;
+    display: inline-block;
+    /* position:absolute; */
+    top:150px;
+    left: 100px;
+    /* z-index: 1; */
+
+}
+#video_container_2{
+   
+    margin: 20px;
+    text-align: center;
+    width:300px;
+    height:300px;
+    display: inline-block;
+    /* position:absolute; */
+    top:150px;
+    right: 100px;
+}
+
+video {
+    width: 100%;
+    
+}
+body{
+background-color:#E6E6FA;
+}          
+.container-fluid{
+background-image: linear-gradient( #AF1919, #182848);
+color: white;
+}
+.pane {
+    text-align: center;
+}
+.button {
+    color: black;
+}
+#join {
+    border-radius: 10px;
+}
