@@ -65,6 +65,7 @@ text-align: center;
 
 .beats {
     text-align: center;
+    margin-bottom: 10%;
 }
 
 @media (max-width: 800px) {
