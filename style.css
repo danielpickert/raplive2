@@ -65,6 +65,8 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: none;
+  -webkit-opacity: 1;
+  background: white;
 
 }
 
