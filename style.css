@@ -48,16 +48,27 @@ text-align: center;
     color: black;
 }
 
+
 #join {
     border-radius: 10px;
     margin-top: 7%;
     border: 2px solid white;
+
 }
 
 #join:hover {
     color: white;
     background: #680101;
 }
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: none;
+
+}
+
 
 #beat_selection {
     text-align: center;
