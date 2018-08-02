@@ -8,12 +8,13 @@
     /* position:absolute; */
     top:150px;
     left: 100px;
+    margin-bottom: 0px;
     /* z-index: 1; */
 
 }
 #video_container_2{
    
-    margin: 20px;
+    /* margin: 20px; */
     text-align: center;
     width:400px;
     height:350px;
