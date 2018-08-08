@@ -77,23 +77,46 @@ button,
     margin-top: 8%;
     margin-bottom: 3%;
     color: white;
+    position: relative;
 }
 
 .beats {
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;
+    
+
+}
+    
+
+.left {
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-right: 2%;
+    max-width: 30%;
+    margin: 0 auto;
+    display: block;
     
 }
 
-p {
-    text-align: left;
-    margin-bottom: 10px;
+.right {
     color: white;
-    width: 40%;
-    margin-left: 10%;
+    position: relative;
+    text-align: center;
+    margin-left: 2%;
+    max-width: 30%;
+    margin: 0 auto;
+    display: block;
+    
 }
 
-
+audio {
+    margin-bottom: 4%;
+}
 
 
 @media (max-width: 800px) {
@@ -109,5 +132,27 @@ p {
 
     }
 
+    .beats, .left, .right  {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        min-width: 100%;
+        margin-top: 10%;
+    }
+
+    .right {
+        margin-top: 0;
+    }
+
+    p {
+        margin: auto;
+        font-size: 1.25em;
+        padding: 3%;
+    }
+
+    #beat_selection {
+        margin-top: 10%;
+    }
 
 }
